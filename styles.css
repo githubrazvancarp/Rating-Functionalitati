@@ -1,0 +1,227 @@
+/* @import url('https://fonts.google.com/specimen/Overpass'); */
+
+* {
+    background-color: black;
+    color: var(--white);
+}
+
+:root {
+    --Orange: #fb7413;
+    --white: #ffff;
+    --LightGrey: #959eac;
+    --Blue: #3e52a3;
+    --DarkBlue: #252d37;
+    --VeryDarkBlue: #121417;  
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 16px;
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: var(--DarkBlue);
+}
+
+h4 { 
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+    background-color: var(--VeryDarkBlue);
+    margin: 28px;
+}
+
+p {
+    color: var(--LightGrey);    
+    background-color: var(--VeryDarkBlue);
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.card-container {       
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 80px;
+}
+
+/* -- First card -- */
+
+.card-step-one {    
+    height: 50%;
+    width: 50%;
+    background-color: var(--VeryDarkBlue);    
+    display: flex;
+    flex-direction: column;    
+    border-radius: 20px;
+}
+
+.img-big-bullet {
+    width: 40px;
+    height: 40px;
+    margin-left: 28px;
+    margin-top: 28px;   
+    margin-bottom: 8px;
+    background-color: var(--DarkBlue);    
+    border-radius: 50%;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-around;    
+    background-color: var(--VeryDarkBlue);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.change-to-step-two-button {
+    width: 352px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--DarkBlue);
+    background-color: var(--Orange);
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: 1px solid var(--Orange);
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.button-rating-one {
+    width: 44px;
+    height: 44px;
+    font-weight: 700;
+    font-size: medium;
+    color: var(--LightGrey);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--DarkBlue);
+}
+
+.button-rating-two {
+    width: 44px;
+    height: 44px;
+    font-weight: 700;
+    font-size: medium;
+    color: var(--LightGrey);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--DarkBlue);    
+}
+
+.button-rating-three {
+    width: 44px;
+    height: 44px;
+    font-weight: 700;
+    font-size: medium;
+    color: var(--LightGrey);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--DarkBlue); 
+}
+
+.button-rating-four {
+    width: 44px;
+    height: 44px;
+    font-weight: 700;
+    font-size: medium;
+    color: var(--LightGrey);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--DarkBlue);  
+}
+
+.button-rating-five {
+    width: 44px;
+    height: 44px;
+    font-weight: 700;
+    font-size: medium;
+    color: var(--LightGrey);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid var(--DarkBlue); 
+}
+
+/* -- Second card -- */
+
+.card-step-two { 
+    display: none;   
+    height: 50%;
+    width: 50%;
+    background-color: var(--VeryDarkBlue);
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--VeryDarkBlue);
+    border-radius: 20px;
+}
+
+.card-step-two-selected-rating {
+    color: var(--LightGrey);    
+    background-color: var(--VeryDarkBlue);
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.img-phone-rating {
+    width: 104px;
+    height: 104px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    background-color: var(--VeryDarkBlue);    
+    border-radius: 50%;
+}
+
+.phone-img {
+    width: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    background-color: var(--VeryDarkBlue);
+}
+
+.h4-second-card {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 40px;
+    background-color: var(--VeryDarkBlue);
+    margin-bottom: 24px;
+}
+
+.p-second-card {
+    text-align: center;
+    color: var(--LightGrey);    
+    background-color: var(--VeryDarkBlue);
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
